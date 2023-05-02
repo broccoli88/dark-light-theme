@@ -1,19 +1,19 @@
 @import "./base.css";
 
 :root {
-	$primary-color: #1a96b7;
-	$secondary-color: #5d06ae;
+	--color-primary-color: #1a96b7;
+	--color-secondary-color: #5d06ae;
 
 	// Light theme
-	$bg: #fff;
-	$font-color: #3c3a3d;
+	--color-bg: #fff;
+	--color-font: #3c3a3d;
 }
 
 // Dark theme
 
-:root.dark-theme {
-	$bg: #212626;
-	$font-color: #cddede;
+.dark-theme {
+	background-color: #212626;
+	color: #cddede;
 }
 
 #app {
